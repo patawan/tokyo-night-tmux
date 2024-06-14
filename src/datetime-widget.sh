@@ -42,4 +42,4 @@ else
   time_string="%H:%M"
 fi
 
-echo "$RESET#[fg=${THEME[foreground]},bg=${THEME[bblack]}] $date_string #[]❬ $time_string "
+echo "#[fg=${THEME[background]},bg=${THEME[black]}]$RESET#[fg=${THEME[foreground]},bg=${THEME[background]}]$date_string #[]❬ $time_string#[fg=${THEME[background]},bg=${THEME[black]}]"
