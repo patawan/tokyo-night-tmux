@@ -64,3 +64,4 @@ tmux set -g window-status-format "#[fg=${THEME[background]},bg=${THEME[black]}]î
 #+--- Bars RIGHT ---+
 tmux set -g status-right "$battery_status$current_path$cmus_status$netspeed$git_status$wb_git_status$date_and_time"
 tmux set -g window-status-separator " "
+tmux set -g status-bg "${THEME[black]}"
